@@ -29,9 +29,9 @@ body {
   text-align: center;
 }
 
-.blog-form {
+#blog-form {
   width: 100%;
-  max-width: 40rem;
+  max-width: 55rem;
   margin: 0 auto;
   /* border: .2rem solid black; */
   border-radius: .2rem;
