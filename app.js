@@ -14,7 +14,7 @@ function uploadForm(e) {
     processData: false,
     contentType: false,
     success: function(data) {
-      // console.log('Request successful', data);
+      console.log('Request successful', data);
       onClearFormData();
     },
     error: function(xhr) {

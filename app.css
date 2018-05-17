@@ -87,6 +87,10 @@ textarea {
   box-shadow: 0 .3rem 1.3rem rgba(0, 0, 0, .25);
 }
 
+.btn:hover {
+  background-color: #ffb324;
+}
+
 .btn:active {
   box-shadow: none;
   transform: scale(.95);
