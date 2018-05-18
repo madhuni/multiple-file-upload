@@ -58,11 +58,11 @@ function onInputChange(e) {
         for (const key in files) {
           if (files.hasOwnProperty(key)) {
             const element = files[key];
-            filesList.push({image: element});
+            formData.append('images', element);
+            filesList.push(element);
           }
         }
         // console.log(filesList);
-        formData.append('images', filesList);
         data['images'] = filesList;
       }
       break;
